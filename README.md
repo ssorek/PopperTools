@@ -1,4 +1,4 @@
 PopperTools
 ===========
 
-Tiny tools that make your programming popper :-)
+Utilities and useful categories / Tools that make you popper :-) 

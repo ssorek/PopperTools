@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1D55A015CA34E5009224A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D559F15CA34E5009224A6 /* Foundation.framework */; };
+		BE1D55AF15CA356D009224A6 /* NSURL+LibraryHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55AE15CA356D009224A6 /* NSURL+LibraryHandling.m */; };
+		BE1D55B215CA35E2009224A6 /* UIColor+HexColoring.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55B115CA35E2009224A6 /* UIColor+HexColoring.m */; };
+		BE1D55B415CA3647009224A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D55B315CA3647009224A6 /* UIKit.framework */; };
+		BE1D55B715CA372E009224A6 /* NSDate+UTC_ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55B615CA372E009224A6 /* NSDate+UTC_ISO8601.m */; };
+		BE1D55BD15CA386C009224A6 /* NSMutableArray+Randomize.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55BC15CA386C009224A6 /* NSMutableArray+Randomize.m */; };
+		BED8C33C15DDF73200A204D0 /* NSDate+UTC_ISO8601.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33515DDF6B800A204D0 /* NSDate+UTC_ISO8601.h */; };
+		BED8C33D15DDF73200A204D0 /* NSMutableArray+Randomize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33615DDF6B800A204D0 /* NSMutableArray+Randomize.h */; };
+		BED8C33E15DDF73200A204D0 /* NSObject+ReferenceCount.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33715DDF6B800A204D0 /* NSObject+ReferenceCount.h */; };
+		BED8C33F15DDF73200A204D0 /* NSURL+LibraryHandling.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33815DDF6B800A204D0 /* NSURL+LibraryHandling.h */; };
+		BED8C34015DDF73200A204D0 /* PopperTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33915DDF6B800A204D0 /* PopperTools.h */; };
+		BED8C34115DDF73200A204D0 /* PTDefines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33A15DDF6B800A204D0 /* PTDefines.h */; };
+		BED8C34215DDF73200A204D0 /* UIColor+HexColoring.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33B15DDF6B800A204D0 /* UIColor+HexColoring.h */; };
+		BED8C34515DDF78700A204D0 /* NSArray+RandomizedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8C34415DDF78700A204D0 /* NSArray+RandomizedArray.m */; };
+		BED8C34615DDF79700A204D0 /* NSArray+RandomizedArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C34315DDF78700A204D0 /* NSArray+RandomizedArray.h */; };
+		BEE7CBE415D35AC8002FBC78 /* NSObject+ReferenceCount.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE7CBE315D35AC8002FBC78 /* NSObject+ReferenceCount.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE1D559A15CA34E5009224A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				BED8C34615DDF79700A204D0 /* NSArray+RandomizedArray.h in CopyFiles */,
+				BED8C33C15DDF73200A204D0 /* NSDate+UTC_ISO8601.h in CopyFiles */,
+				BED8C33D15DDF73200A204D0 /* NSMutableArray+Randomize.h in CopyFiles */,
+				BED8C33E15DDF73200A204D0 /* NSObject+ReferenceCount.h in CopyFiles */,
+				BED8C33F15DDF73200A204D0 /* NSURL+LibraryHandling.h in CopyFiles */,
+				BED8C34015DDF73200A204D0 /* PopperTools.h in CopyFiles */,
+				BED8C34115DDF73200A204D0 /* PTDefines.h in CopyFiles */,
+				BED8C34215DDF73200A204D0 /* UIColor+HexColoring.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE1D559C15CA34E5009224A6 /* libPopperTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPopperTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1D559F15CA34E5009224A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE1D55A315CA34E5009224A6 /* PopperTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopperTools-Prefix.pch"; sourceTree = "<group>"; };
+		BE1D55AE15CA356D009224A6 /* NSURL+LibraryHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LibraryHandling.m"; sourceTree = "<group>"; };
+		BE1D55B115CA35E2009224A6 /* UIColor+HexColoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColoring.m"; sourceTree = "<group>"; };
+		BE1D55B315CA3647009224A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE1D55B615CA372E009224A6 /* NSDate+UTC_ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UTC_ISO8601.m"; sourceTree = "<group>"; };
+		BE1D55BC15CA386C009224A6 /* NSMutableArray+Randomize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Randomize.m"; sourceTree = "<group>"; };
+		BEBBA30D15D3A3CA00794396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BED8C33515DDF6B800A204D0 /* NSDate+UTC_ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UTC_ISO8601.h"; sourceTree = "<group>"; };
+		BED8C33615DDF6B800A204D0 /* NSMutableArray+Randomize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Randomize.h"; sourceTree = "<group>"; };
+		BED8C33715DDF6B800A204D0 /* NSObject+ReferenceCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ReferenceCount.h"; sourceTree = "<group>"; };
+		BED8C33815DDF6B800A204D0 /* NSURL+LibraryHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LibraryHandling.h"; sourceTree = "<group>"; };
+		BED8C33915DDF6B800A204D0 /* PopperTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopperTools.h; sourceTree = "<group>"; };
+		BED8C33A15DDF6B800A204D0 /* PTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDefines.h; sourceTree = "<group>"; };
+		BED8C33B15DDF6B800A204D0 /* UIColor+HexColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColoring.h"; sourceTree = "<group>"; };
+		BED8C34315DDF78700A204D0 /* NSArray+RandomizedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomizedArray.h"; sourceTree = "<group>"; };
+		BED8C34415DDF78700A204D0 /* NSArray+RandomizedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomizedArray.m"; sourceTree = "<group>"; };
+		BEE7CBE315D35AC8002FBC78 /* NSObject+ReferenceCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ReferenceCount.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1D559915CA34E5009224A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1D55B415CA3647009224A6 /* UIKit.framework in Frameworks */,
+				BE1D55A015CA34E5009224A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1D559115CA34E5009224A6 = {
+			isa = PBXGroup;
+			children = (
+				BE1D55A115CA34E5009224A6 /* PopperTools */,
+				BE1D559E15CA34E5009224A6 /* Frameworks */,
+				BE1D559D15CA34E5009224A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1D559D15CA34E5009224A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D559C15CA34E5009224A6 /* libPopperTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1D559E15CA34E5009224A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D55B315CA3647009224A6 /* UIKit.framework */,
+				BE1D559F15CA34E5009224A6 /* Foundation.framework */,
+				BEBBA30D15D3A3CA00794396 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1D55A115CA34E5009224A6 /* PopperTools */ = {
+			isa = PBXGroup;
+			children = (
+				BED8C34315DDF78700A204D0 /* NSArray+RandomizedArray.h */,
+				BED8C33515DDF6B800A204D0 /* NSDate+UTC_ISO8601.h */,
+				BED8C33615DDF6B800A204D0 /* NSMutableArray+Randomize.h */,
+				BED8C33715DDF6B800A204D0 /* NSObject+ReferenceCount.h */,
+				BED8C33815DDF6B800A204D0 /* NSURL+LibraryHandling.h */,
+				BED8C33915DDF6B800A204D0 /* PopperTools.h */,
+				BED8C33A15DDF6B800A204D0 /* PTDefines.h */,
+				BED8C33B15DDF6B800A204D0 /* UIColor+HexColoring.h */,
+				BED8C34415DDF78700A204D0 /* NSArray+RandomizedArray.m */,
+				BE1D55B615CA372E009224A6 /* NSDate+UTC_ISO8601.m */,
+				BE1D55BC15CA386C009224A6 /* NSMutableArray+Randomize.m */,
+				BEE7CBE315D35AC8002FBC78 /* NSObject+ReferenceCount.m */,
+				BE1D55AE15CA356D009224A6 /* NSURL+LibraryHandling.m */,
+				BE1D55B115CA35E2009224A6 /* UIColor+HexColoring.m */,
+				BE1D55A215CA34E5009224A6 /* Supporting Files */,
+			);
+			path = PopperTools;
+			sourceTree = "<group>";
+		};
+		BE1D55A215CA34E5009224A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1D55A315CA34E5009224A6 /* PopperTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1D559B15CA34E5009224A6 /* PopperTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1D55AA15CA34E5009224A6 /* Build configuration list for PBXNativeTarget "PopperTools" */;
+			buildPhases = (
+				BE1D559815CA34E5009224A6 /* Sources */,
+				BE1D559915CA34E5009224A6 /* Frameworks */,
+				BE1D559A15CA34E5009224A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopperTools;
+			productName = PopperTools;
+			productReference = BE1D559C15CA34E5009224A6 /* libPopperTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1D559315CA34E5009224A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "NEXTBOOK Inc.";
+			};
+			buildConfigurationList = BE1D559615CA34E5009224A6 /* Build configuration list for PBXProject "PopperTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE1D559115CA34E5009224A6;
+			productRefGroup = BE1D559D15CA34E5009224A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1D559B15CA34E5009224A6 /* PopperTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1D559815CA34E5009224A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1D55AF15CA356D009224A6 /* NSURL+LibraryHandling.m in Sources */,
+				BE1D55B215CA35E2009224A6 /* UIColor+HexColoring.m in Sources */,
+				BE1D55B715CA372E009224A6 /* NSDate+UTC_ISO8601.m in Sources */,
+				BE1D55BD15CA386C009224A6 /* NSMutableArray+Randomize.m in Sources */,
+				BEE7CBE415D35AC8002FBC78 /* NSObject+ReferenceCount.m in Sources */,
+				BED8C34515DDF78700A204D0 /* NSArray+RandomizedArray.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE1D55A815CA34E5009224A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE1D55A915CA34E5009224A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1D55AB15CA34E5009224A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/PopperTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopperTools/PopperTools-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Header;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE1D55AC15CA34E5009224A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/PopperTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopperTools/PopperTools-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Header;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1D559615CA34E5009224A6 /* Build configuration list for PBXProject "PopperTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1D55A815CA34E5009224A6 /* Debug */,
+				BE1D55A915CA34E5009224A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1D55AA15CA34E5009224A6 /* Build configuration list for PBXNativeTarget "PopperTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1D55AB15CA34E5009224A6 /* Debug */,
+				BE1D55AC15CA34E5009224A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1D559315CA34E5009224A6 /* Project object */;
+}
