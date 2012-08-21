@@ -8,21 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BE1D55A015CA34E5009224A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D559F15CA34E5009224A6 /* Foundation.framework */; };
-		BE1D55AF15CA356D009224A6 /* NSURL+LibraryHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55AE15CA356D009224A6 /* NSURL+LibraryHandling.m */; };
-		BE1D55B215CA35E2009224A6 /* UIColor+HexColoring.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55B115CA35E2009224A6 /* UIColor+HexColoring.m */; };
 		BE1D55B415CA3647009224A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D55B315CA3647009224A6 /* UIKit.framework */; };
-		BE1D55B715CA372E009224A6 /* NSDate+UTC_ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55B615CA372E009224A6 /* NSDate+UTC_ISO8601.m */; };
-		BE1D55BD15CA386C009224A6 /* NSMutableArray+Randomize.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1D55BC15CA386C009224A6 /* NSMutableArray+Randomize.m */; };
-		BED8C33C15DDF73200A204D0 /* NSDate+UTC_ISO8601.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33515DDF6B800A204D0 /* NSDate+UTC_ISO8601.h */; };
-		BED8C33D15DDF73200A204D0 /* NSMutableArray+Randomize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33615DDF6B800A204D0 /* NSMutableArray+Randomize.h */; };
-		BED8C33E15DDF73200A204D0 /* NSObject+ReferenceCount.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33715DDF6B800A204D0 /* NSObject+ReferenceCount.h */; };
-		BED8C33F15DDF73200A204D0 /* NSURL+LibraryHandling.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33815DDF6B800A204D0 /* NSURL+LibraryHandling.h */; };
-		BED8C34015DDF73200A204D0 /* PopperTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33915DDF6B800A204D0 /* PopperTools.h */; };
-		BED8C34115DDF73200A204D0 /* PTDefines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33A15DDF6B800A204D0 /* PTDefines.h */; };
-		BED8C34215DDF73200A204D0 /* UIColor+HexColoring.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C33B15DDF6B800A204D0 /* UIColor+HexColoring.h */; };
-		BED8C34515DDF78700A204D0 /* NSArray+RandomizedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BED8C34415DDF78700A204D0 /* NSArray+RandomizedArray.m */; };
-		BED8C34615DDF79700A204D0 /* NSArray+RandomizedArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED8C34315DDF78700A204D0 /* NSArray+RandomizedArray.h */; };
-		BEE7CBE415D35AC8002FBC78 /* NSObject+ReferenceCount.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE7CBE315D35AC8002FBC78 /* NSObject+ReferenceCount.m */; };
+		BE6301A715E22910008ECBD8 /* NSArray+RandomizedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A115E22910008ECBD8 /* NSArray+RandomizedArray.m */; };
+		BE6301A815E22910008ECBD8 /* NSDate+UTC_ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A215E22910008ECBD8 /* NSDate+UTC_ISO8601.m */; };
+		BE6301A915E22910008ECBD8 /* NSMutableArray+Randomize.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A315E22910008ECBD8 /* NSMutableArray+Randomize.m */; };
+		BE6301AA15E22910008ECBD8 /* NSObject+ReferenceCount.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A415E22910008ECBD8 /* NSObject+ReferenceCount.m */; };
+		BE6301AB15E22910008ECBD8 /* NSURL+LibraryHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A515E22910008ECBD8 /* NSURL+LibraryHandling.m */; };
+		BE6301AC15E22910008ECBD8 /* UIColor+HexColoring.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A615E22910008ECBD8 /* UIColor+HexColoring.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,14 +24,6 @@
 			dstPath = "${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				BED8C34615DDF79700A204D0 /* NSArray+RandomizedArray.h in CopyFiles */,
-				BED8C33C15DDF73200A204D0 /* NSDate+UTC_ISO8601.h in CopyFiles */,
-				BED8C33D15DDF73200A204D0 /* NSMutableArray+Randomize.h in CopyFiles */,
-				BED8C33E15DDF73200A204D0 /* NSObject+ReferenceCount.h in CopyFiles */,
-				BED8C33F15DDF73200A204D0 /* NSURL+LibraryHandling.h in CopyFiles */,
-				BED8C34015DDF73200A204D0 /* PopperTools.h in CopyFiles */,
-				BED8C34115DDF73200A204D0 /* PTDefines.h in CopyFiles */,
-				BED8C34215DDF73200A204D0 /* UIColor+HexColoring.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,23 +32,23 @@
 /* Begin PBXFileReference section */
 		BE1D559C15CA34E5009224A6 /* libPopperTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPopperTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1D559F15CA34E5009224A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BE1D55A315CA34E5009224A6 /* PopperTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopperTools-Prefix.pch"; sourceTree = "<group>"; };
-		BE1D55AE15CA356D009224A6 /* NSURL+LibraryHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LibraryHandling.m"; sourceTree = "<group>"; };
-		BE1D55B115CA35E2009224A6 /* UIColor+HexColoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColoring.m"; sourceTree = "<group>"; };
 		BE1D55B315CA3647009224A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BE1D55B615CA372E009224A6 /* NSDate+UTC_ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UTC_ISO8601.m"; sourceTree = "<group>"; };
-		BE1D55BC15CA386C009224A6 /* NSMutableArray+Randomize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Randomize.m"; sourceTree = "<group>"; };
+		BE63019815E22910008ECBD8 /* NSArray+RandomizedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomizedArray.h"; sourceTree = "<group>"; };
+		BE63019915E22910008ECBD8 /* NSDate+UTC_ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UTC_ISO8601.h"; sourceTree = "<group>"; };
+		BE63019A15E22910008ECBD8 /* NSMutableArray+Randomize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Randomize.h"; sourceTree = "<group>"; };
+		BE63019B15E22910008ECBD8 /* NSObject+ReferenceCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ReferenceCount.h"; sourceTree = "<group>"; };
+		BE63019C15E22910008ECBD8 /* NSURL+LibraryHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LibraryHandling.h"; sourceTree = "<group>"; };
+		BE63019D15E22910008ECBD8 /* PopperTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopperTools.h; sourceTree = "<group>"; };
+		BE63019E15E22910008ECBD8 /* PTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDefines.h; sourceTree = "<group>"; };
+		BE63019F15E22910008ECBD8 /* UIColor+HexColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColoring.h"; sourceTree = "<group>"; };
+		BE6301A015E22910008ECBD8 /* PopperTools-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PopperTools-Prefix.pch"; sourceTree = "<group>"; };
+		BE6301A115E22910008ECBD8 /* NSArray+RandomizedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomizedArray.m"; sourceTree = "<group>"; };
+		BE6301A215E22910008ECBD8 /* NSDate+UTC_ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UTC_ISO8601.m"; sourceTree = "<group>"; };
+		BE6301A315E22910008ECBD8 /* NSMutableArray+Randomize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Randomize.m"; sourceTree = "<group>"; };
+		BE6301A415E22910008ECBD8 /* NSObject+ReferenceCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ReferenceCount.m"; sourceTree = "<group>"; };
+		BE6301A515E22910008ECBD8 /* NSURL+LibraryHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LibraryHandling.m"; sourceTree = "<group>"; };
+		BE6301A615E22910008ECBD8 /* UIColor+HexColoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColoring.m"; sourceTree = "<group>"; };
 		BEBBA30D15D3A3CA00794396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BED8C33515DDF6B800A204D0 /* NSDate+UTC_ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UTC_ISO8601.h"; sourceTree = "<group>"; };
-		BED8C33615DDF6B800A204D0 /* NSMutableArray+Randomize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Randomize.h"; sourceTree = "<group>"; };
-		BED8C33715DDF6B800A204D0 /* NSObject+ReferenceCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ReferenceCount.h"; sourceTree = "<group>"; };
-		BED8C33815DDF6B800A204D0 /* NSURL+LibraryHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LibraryHandling.h"; sourceTree = "<group>"; };
-		BED8C33915DDF6B800A204D0 /* PopperTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopperTools.h; sourceTree = "<group>"; };
-		BED8C33A15DDF6B800A204D0 /* PTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDefines.h; sourceTree = "<group>"; };
-		BED8C33B15DDF6B800A204D0 /* UIColor+HexColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColoring.h"; sourceTree = "<group>"; };
-		BED8C34315DDF78700A204D0 /* NSArray+RandomizedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomizedArray.h"; sourceTree = "<group>"; };
-		BED8C34415DDF78700A204D0 /* NSArray+RandomizedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomizedArray.m"; sourceTree = "<group>"; };
-		BEE7CBE315D35AC8002FBC78 /* NSObject+ReferenceCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ReferenceCount.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,20 +94,6 @@
 		BE1D55A115CA34E5009224A6 /* PopperTools */ = {
 			isa = PBXGroup;
 			children = (
-				BED8C34315DDF78700A204D0 /* NSArray+RandomizedArray.h */,
-				BED8C33515DDF6B800A204D0 /* NSDate+UTC_ISO8601.h */,
-				BED8C33615DDF6B800A204D0 /* NSMutableArray+Randomize.h */,
-				BED8C33715DDF6B800A204D0 /* NSObject+ReferenceCount.h */,
-				BED8C33815DDF6B800A204D0 /* NSURL+LibraryHandling.h */,
-				BED8C33915DDF6B800A204D0 /* PopperTools.h */,
-				BED8C33A15DDF6B800A204D0 /* PTDefines.h */,
-				BED8C33B15DDF6B800A204D0 /* UIColor+HexColoring.h */,
-				BED8C34415DDF78700A204D0 /* NSArray+RandomizedArray.m */,
-				BE1D55B615CA372E009224A6 /* NSDate+UTC_ISO8601.m */,
-				BE1D55BC15CA386C009224A6 /* NSMutableArray+Randomize.m */,
-				BEE7CBE315D35AC8002FBC78 /* NSObject+ReferenceCount.m */,
-				BE1D55AE15CA356D009224A6 /* NSURL+LibraryHandling.m */,
-				BE1D55B115CA35E2009224A6 /* UIColor+HexColoring.m */,
 				BE1D55A215CA34E5009224A6 /* Supporting Files */,
 			);
 			path = PopperTools;
@@ -132,7 +102,21 @@
 		BE1D55A215CA34E5009224A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE1D55A315CA34E5009224A6 /* PopperTools-Prefix.pch */,
+				BE63019815E22910008ECBD8 /* NSArray+RandomizedArray.h */,
+				BE63019915E22910008ECBD8 /* NSDate+UTC_ISO8601.h */,
+				BE63019A15E22910008ECBD8 /* NSMutableArray+Randomize.h */,
+				BE63019B15E22910008ECBD8 /* NSObject+ReferenceCount.h */,
+				BE63019C15E22910008ECBD8 /* NSURL+LibraryHandling.h */,
+				BE63019D15E22910008ECBD8 /* PopperTools.h */,
+				BE63019E15E22910008ECBD8 /* PTDefines.h */,
+				BE63019F15E22910008ECBD8 /* UIColor+HexColoring.h */,
+				BE6301A015E22910008ECBD8 /* PopperTools-Prefix.pch */,
+				BE6301A115E22910008ECBD8 /* NSArray+RandomizedArray.m */,
+				BE6301A215E22910008ECBD8 /* NSDate+UTC_ISO8601.m */,
+				BE6301A315E22910008ECBD8 /* NSMutableArray+Randomize.m */,
+				BE6301A415E22910008ECBD8 /* NSObject+ReferenceCount.m */,
+				BE6301A515E22910008ECBD8 /* NSURL+LibraryHandling.m */,
+				BE6301A615E22910008ECBD8 /* UIColor+HexColoring.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -188,12 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1D55AF15CA356D009224A6 /* NSURL+LibraryHandling.m in Sources */,
-				BE1D55B215CA35E2009224A6 /* UIColor+HexColoring.m in Sources */,
-				BE1D55B715CA372E009224A6 /* NSDate+UTC_ISO8601.m in Sources */,
-				BE1D55BD15CA386C009224A6 /* NSMutableArray+Randomize.m in Sources */,
-				BEE7CBE415D35AC8002FBC78 /* NSObject+ReferenceCount.m in Sources */,
-				BED8C34515DDF78700A204D0 /* NSArray+RandomizedArray.m in Sources */,
+				BE6301A715E22910008ECBD8 /* NSArray+RandomizedArray.m in Sources */,
+				BE6301A815E22910008ECBD8 /* NSDate+UTC_ISO8601.m in Sources */,
+				BE6301A915E22910008ECBD8 /* NSMutableArray+Randomize.m in Sources */,
+				BE6301AA15E22910008ECBD8 /* NSObject+ReferenceCount.m in Sources */,
+				BE6301AB15E22910008ECBD8 /* NSURL+LibraryHandling.m in Sources */,
+				BE6301AC15E22910008ECBD8 /* UIColor+HexColoring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
