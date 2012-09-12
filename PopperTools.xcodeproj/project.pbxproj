@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE1D55A015CA34E5009224A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D559F15CA34E5009224A6 /* Foundation.framework */; };
 		BE1D55B415CA3647009224A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1D55B315CA3647009224A6 /* UIKit.framework */; };
+		BE24631315ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE24631215ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.m */; };
 		BE6301A715E22910008ECBD8 /* NSArray+RandomizedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A115E22910008ECBD8 /* NSArray+RandomizedArray.m */; };
 		BE6301A815E22910008ECBD8 /* NSDate+UTC_ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A215E22910008ECBD8 /* NSDate+UTC_ISO8601.m */; };
 		BE6301A915E22910008ECBD8 /* NSMutableArray+Randomize.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6301A315E22910008ECBD8 /* NSMutableArray+Randomize.m */; };
@@ -33,6 +34,8 @@
 		BE1D559C15CA34E5009224A6 /* libPopperTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPopperTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1D559F15CA34E5009224A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE1D55B315CA3647009224A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE24631115ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SortedKeyEnumerator.h"; sourceTree = "<group>"; };
+		BE24631215ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SortedKeyEnumerator.m"; sourceTree = "<group>"; };
 		BE63019815E22910008ECBD8 /* NSArray+RandomizedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomizedArray.h"; sourceTree = "<group>"; };
 		BE63019915E22910008ECBD8 /* NSDate+UTC_ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UTC_ISO8601.h"; sourceTree = "<group>"; };
 		BE63019A15E22910008ECBD8 /* NSMutableArray+Randomize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Randomize.h"; sourceTree = "<group>"; };
@@ -104,19 +107,21 @@
 			children = (
 				BE63019815E22910008ECBD8 /* NSArray+RandomizedArray.h */,
 				BE63019915E22910008ECBD8 /* NSDate+UTC_ISO8601.h */,
+				BE24631115ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.h */,
 				BE63019A15E22910008ECBD8 /* NSMutableArray+Randomize.h */,
 				BE63019B15E22910008ECBD8 /* NSObject+ReferenceCount.h */,
 				BE63019C15E22910008ECBD8 /* NSURL+LibraryHandling.h */,
 				BE63019D15E22910008ECBD8 /* PopperTools.h */,
 				BE63019E15E22910008ECBD8 /* PTDefines.h */,
 				BE63019F15E22910008ECBD8 /* UIColor+HexColoring.h */,
-				BE6301A015E22910008ECBD8 /* PopperTools-Prefix.pch */,
 				BE6301A115E22910008ECBD8 /* NSArray+RandomizedArray.m */,
 				BE6301A215E22910008ECBD8 /* NSDate+UTC_ISO8601.m */,
+				BE24631215ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.m */,
 				BE6301A315E22910008ECBD8 /* NSMutableArray+Randomize.m */,
 				BE6301A415E22910008ECBD8 /* NSObject+ReferenceCount.m */,
 				BE6301A515E22910008ECBD8 /* NSURL+LibraryHandling.m */,
 				BE6301A615E22910008ECBD8 /* UIColor+HexColoring.m */,
+				BE6301A015E22910008ECBD8 /* PopperTools-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				BE6301AA15E22910008ECBD8 /* NSObject+ReferenceCount.m in Sources */,
 				BE6301AB15E22910008ECBD8 /* NSURL+LibraryHandling.m in Sources */,
 				BE6301AC15E22910008ECBD8 /* UIColor+HexColoring.m in Sources */,
+				BE24631315ECAB8E004E6C16 /* NSDictionary+SortedKeyEnumerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

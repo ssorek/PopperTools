@@ -29,6 +29,7 @@
 #ifndef PopperTools_PTDefines_43691923_EF78_4B48_ADC0_EE4B589BE9FB
 #define PopperTools_PTDefines_43691923_EF78_4B48_ADC0_EE4B589BE9FB
 
+
 /*!
  
  @defined PT_DEBUG_MACROS
@@ -75,10 +76,15 @@
  */
 #define objcBoolString(__BOOL) ((__BOOL) ? @"YES" : @"NO")
 
+#define prettyDescription(__INSTANCE) [[[[__INSTANCE description] \
+stringByReplacingOccurrencesOfString:@"\\n" withString:@"\n"] \
+stringByReplacingOccurrencesOfString:@"\\t" withString:@"\t"] \
+stringByReplacingOccurrencesOfString:@"\\\"" withString:@"\""]
+
 
 /*!
  
- pdefined PTBLOCK
+ @defined PTBLOCK
  @abstract rlpaces pre-blocks variable declaration
  @param __CLASS some object type
  
