@@ -1,5 +1,5 @@
 //
-//  PopperTools.h
+//  NSDictionary+SortedKeyEnumerator.h
 //  PopperTools
 //
 // Thanks for using PopperTools!
@@ -26,18 +26,17 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#ifndef POPPERTOOLS_HEADER_GUARD_067BE341_00F9_4BFC_9453_4C77063CB40F
-#define POPPERTOOLS_HEADER_GUARD_067BE341_00F9_4BFC_9453_4C77063CB40F
+#import <Foundation/Foundation.h>
 
+typedef enum : uint32_t {
+    
+    PTSortOptionAscending = 0x0,
+    PTSortOptionDescending = 0x1,
+    
+} PTSortOptions;
 
-#import "NSObject+ReferenceCount.h"
-#import "NSURL+LibraryHandling.h"
-#import "UIColor+HexColoring.h"
-#import "NSDate+UTC_ISO8601.h"
-#import "NSMutableArray+Randomize.h"
-#import "NSArray+RandomizedArray.h"
-#import "NSDictionary+SortedKeyEnumerator.h"
-#import "PTDefines.h"
+@interface NSDictionary (SortedKeyEnumerator)
 
+- (NSEnumerator*)sortedKeyEnumeratorWithSortOption:(PTSortOptions)option;
 
-#endif
+@end

@@ -1,5 +1,5 @@
 //
-//  PopperTools.h
+//  NSDictionary+SortedKeyEnumerator.m
 //  PopperTools
 //
 // Thanks for using PopperTools!
@@ -26,18 +26,21 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#ifndef POPPERTOOLS_HEADER_GUARD_067BE341_00F9_4BFC_9453_4C77063CB40F
-#define POPPERTOOLS_HEADER_GUARD_067BE341_00F9_4BFC_9453_4C77063CB40F
-
-
-#import "NSObject+ReferenceCount.h"
-#import "NSURL+LibraryHandling.h"
-#import "UIColor+HexColoring.h"
-#import "NSDate+UTC_ISO8601.h"
-#import "NSMutableArray+Randomize.h"
-#import "NSArray+RandomizedArray.h"
 #import "NSDictionary+SortedKeyEnumerator.h"
-#import "PTDefines.h"
 
+@implementation NSDictionary (SortedKeyEnumerator)
 
-#endif
+- (NSEnumerator*)sortedKeyEnumeratorWithSortOption:(PTSortOptions)option
+{
+    return [[[self allKeys] sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        
+        NSString* fkey = obj1;
+        NSString* skey = obj2;
+        
+        return ((option) ? -([fkey compare:skey]) : [fkey compare:skey]);
+        
+        
+    }] objectEnumerator];
+}
+
+@end
